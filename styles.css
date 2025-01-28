@@ -118,3 +118,21 @@ body {
 .hero-image > img {
     border-radius: 15%;
 }
+
+/* Quote Section */
+.page-quote {
+    padding: 25px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-quote > p {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    width: min(63%);
+}
+
+.page-quote > p > span {
+    color: #408cfc;
+}
