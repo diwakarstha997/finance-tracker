@@ -184,3 +184,18 @@ body {
     color: white;
     padding: 20px 40px;
 }
+
+/* Footer Section */
+.footer-nav {
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.copyright-text {
+    text-align: center;
+    margin: 25px 100px;
+    padding: 25px 50px;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.13);
+}
