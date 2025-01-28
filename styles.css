@@ -136,3 +136,51 @@ body {
 .page-quote > p > span {
     color: #408cfc;
 }
+
+/* Feature Section */
+
+.feature-container {
+    margin: 25px 100px;
+    padding: 150px 100px;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.13);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.feature-image {
+    width: 50%;
+    height: 50%;
+    justify-self: center;
+}
+
+.feature-image > img {
+    border-radius: 50px;
+}
+
+.feature-main-text {
+    font-size: 64px;
+    width: min(600px, 100%);
+    font-weight: bold;
+}
+
+.feature-main-text > span {
+    color: #408cfc;
+}
+
+/* Visualize Graph Section */
+.feature-key-points {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Expense Track Section */
+.feature-text > .signup {
+    margin-top: 25px;
+    font-size: 24px;
+    border-radius: 50px;
+    background-color: #121212;
+    color: white;
+    padding: 20px 40px;
+}
