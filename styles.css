@@ -3,6 +3,13 @@
 
 body {
     font-family: 'Gilroy', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .logo {
@@ -340,6 +347,11 @@ body {
         text-align: center;
     }
 
+    .login-redirect {
+        text-decoration: none;
+        color: black;
+    }
+
 /* Login page css */
 
     /* Form Section */
@@ -415,3 +427,19 @@ body {
         text-decoration: none;
         color: black;
     }
+
+/* Dashboard css */
+.dashboard-topbar {
+    padding: 10px 100px;
+    background-color: rgba(128, 128, 128, 0.295);
+    display: flex;
+}
+
+.log-off {
+    margin-left: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding: 25px;
+    align-self: center;
+    background-color: #408cfc;
+}
