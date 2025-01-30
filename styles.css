@@ -429,6 +429,8 @@ a {
     }
 
 /* Dashboard css */
+
+/* Header Section */ 
 .dashboard-topbar {
     padding: 10px 100px;
     background-color: rgba(128, 128, 128, 0.295);
@@ -441,5 +443,23 @@ a {
     margin-bottom: -10px;
     padding: 25px;
     align-self: center;
+    background-color: #408cfc;
+}
+
+/* Nav Menu Css */
+.nav-menu > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.nav-menu > ul > li {
+    padding: 15px;
+}
+
+.nav-menu > ul > li:first-child {
     background-color: #408cfc;
 }
