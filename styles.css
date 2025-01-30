@@ -486,9 +486,23 @@ a {
 
 .balance-card {
     position: relative;
+    border-radius: 25px;
     background-color: white;
     padding: 50px;
     margin: 0px 40px 0px 40px;
     top: -2rem;
     box-shadow: 0px 5px 10px grey;
+}
+
+.overview {
+    margin: 20px 10%;
+    display: flex;
+    gap: 1rem;
+}
+
+.overview > div {
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 5px 10px grey;
+    flex-grow: 1;
 }
