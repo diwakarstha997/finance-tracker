@@ -503,7 +503,8 @@ a {
     margin-right: 100px;
     margin-left: 100px;
     background-color: #e3f6f5;
-    height: 600px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 /* Balance Card Css*/
@@ -564,4 +565,41 @@ a {
     padding: 50px;
     box-shadow: 0px 5px 10px grey;
     flex-grow: 1;
+}
+
+/* Recent Transactions Css */
+.transaction-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 50px;
+    border-bottom: 2px solid black;
+}
+
+.transaction-wrapper {
+    margin: 0px 5%;
+}
+
+.transaction-record {
+    text-align: right;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.transaction-record th:first-of-type,
+.transaction-record td:first-of-type {
+    text-align: left;
+}
+
+.transaction-record > thead th {
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
+
+.transaction-record > tbody tr {
+    border-bottom: 1px solid #bae8e8;
+    background-color: white;
+}
+
+.transaction-record > tbody td {
+    padding: 40px 10px;
 }
